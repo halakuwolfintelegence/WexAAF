@@ -57,7 +57,7 @@ WexAAF is a comprehensive, AI-powered web penetration testing tool designed for 
 1. Clone or download WexAAF:
 ```bash
 git clone https://github.com/halakuwolfintelegence/WexAAF.git
-cd wexaaf
+cd WexAAF
 ```
 
 2. Install dependencies:
