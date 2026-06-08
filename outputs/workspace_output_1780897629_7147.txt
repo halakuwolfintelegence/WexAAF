@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/wexaaf.py", line 41, in <module>
+    from modules.http_handler import HTTPHandler
+  File "/workspace/modules/__init__.py", line 16, in <module>
+    from .ai_analyzer import AIAnalyzer
+  File "/workspace/modules/ai_analyzer.py", line 378
+    mean'Low' return
+        ^^^^^
+SyntaxError: invalid syntax

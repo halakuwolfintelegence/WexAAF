@@ -1,0 +1,11 @@
+   404 wexaaf.py
+    31 modules/__init__.py
+   536 modules/ai_analyzer.py
+   587 modules/data_dumper.py
+   383 modules/http_handler.py
+   586 modules/sql_injector.py
+   415 modules/url_bruteforce.py
+   233 modules/utils.py
+   457 modules/waf_detector.py
+   455 modules/xss_scanner.py
+  4087 total

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/wexaaf.py", line 41, in <module>
+    from modules.http_handler import HTTPHandler
+  File "/workspace/modules/__init__.py", line 13, in <module>
+    from .sql_injector import SQLInjector
+  File "/workspace/modules/sql_injector.py", line 32
+    '')',
+      ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 27

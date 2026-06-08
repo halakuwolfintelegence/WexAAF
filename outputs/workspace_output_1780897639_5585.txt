@@ -1,0 +1,108 @@
+
+
+============================================================
+ WexAAF Test Suite
+============================================================
+Testing module imports...
+✓ All modules imported successfully
+
+============================================================
+Testing Banner Display
+============================================================
+
+[96m
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║                    [97mWexAAF v1.0[96m                                ║
+║            [97mAI Powered Web Penetration Testing Tool[96m            ║
+║                   [92mEthical Security Only[96m                       ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+[0m
+
+
+[91m╔═══════════════════════════════════════════════════════════════════╗
+║                      ⚠️  LEGAL DISCLAIMER ⚠️                     ║
+╚═══════════════════════════════════════════════════════════════════╝[31m
+
+WexAAF is created SOLELY for educational and ethical security testing 
+purposes. By using this tool, you agree to:
+
+[32m✓[31m Only test websites you OWN or have EXPLICIT WRITTEN permission to test
+[32m✓[31m Never use WexAAF for malicious purposes or unauthorized access
+[32m✓[31m Always comply with local, state, and federal laws
+[32m✓[31m Test on your own server first before any deployment
+[32m✓[31m Use this tool responsibly and ethically
+
+[91mDISCLAIMER:[0m
+[37mThe developers and contributors of WexAAF are NOT responsible for:[31m
+[37m• Any misuse of this tool[31m
+[37m• Any damage caused to systems[31m
+[37m• Any legal consequences arising from misuse[31m
+[37m• Any unauthorized access or data breaches
+
+[93m
+TRY IT ON YOUR OWN SERVER AND WE ARE NOT RESPONSIBLE FOR WRONG USE!
+WE WILL MAKE THIS TOOL ONLY ETHICAL AND EDUCATIONAL PURPOSED.
+
+For authorized security testing, always obtain proper authorization first.
+[0m
+
+✓ Banner and disclaimer displayed
+
+============================================================
+Testing Color Output
+============================================================
+[31mRED[0m
+[32mGREEN[0m
+[33mYELLOW[0m
+[34mBLUE[0m
+[95mPURPLE[0m
+[96mCYAN[0m
+[97mWHITE[0m
+
+✓ Color output working
+
+============================================================
+Testing HTTP Handler
+============================================================
+Testing with example.com...
+✓ GET request successful
+  Status code: 200
+  Response time: 0.072s
+  Content length: 528 bytes
+
+============================================================
+Testing Server Information Extraction
+============================================================
+  Server: cloudflare
+  Status code: 200
+  Technology: ['Unknown']
+
+✓ Server information extraction working
+
+============================================================
+Testing WAF Detection
+============================================================
+[36m[i] Analyzing WAF signatures...[0m
+[33m[!] WAF signature matched: Cloudflare (cf-ray)[0m
+  WAF Detected: Cloudflare
+
+✓ WAF detection working
+
+============================================================
+ TEST SUMMARY
+============================================================
+✓ PASSED: Module Imports
+✓ PASSED: Banner Display
+✓ PASSED: Color Output
+✓ PASSED: HTTP Handler
+✓ PASSED: Server Info
+✓ PASSED: WAF Detection
+
+============================================================
+ Results: 6/6 tests passed
+============================================================
+
+🎉 All tests passed! WexAAF is ready to use.
+

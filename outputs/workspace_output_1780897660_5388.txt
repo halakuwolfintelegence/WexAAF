@@ -1,0 +1,32 @@
+.
+|-- EXAMPLES.md
+|-- PROJECT_SUMMARY.md
+|-- QUICKSTART.md
+|-- README.md
+|-- config
+|   `-- settings.json
+|-- modules
+|   |-- __init__.py
+|   |-- ai_analyzer.py
+|   |-- data_dumper.py
+|   |-- http_handler.py
+|   |-- sql_injector.py
+|   |-- url_bruteforce.py
+|   |-- utils.py
+|   |-- waf_detector.py
+|   `-- xss_scanner.py
+|-- output
+|-- outputs
+|   |-- workspace_output_1780897530_7557.txt
+|   |-- workspace_output_1780897620_7016.txt
+|   |-- workspace_output_1780897622_9784.txt
+|   |-- workspace_output_1780897629_7147.txt
+|   |-- workspace_output_1780897634_7.txt
+|   |-- workspace_output_1780897639_5585.txt
+|   `-- workspace_output_1780897660_5388.txt
+|-- requirements.txt
+|-- test_wexaaf.py
+|-- todo.md
+`-- wexaaf.py
+
+5 directories, 25 files

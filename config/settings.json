@@ -1,0 +1,47 @@
+{
+  "wexaaf": {
+    "version": "1.0.0",
+    "name": "WexAAF - AI Powered Web Penetration Testing Tool"
+  },
+  "settings": {
+    "timeout": 10,
+    "max_retries": 3,
+    "verify_ssl": false,
+    "user_agent_rotation": true,
+    "follow_redirects": true,
+    "max_threads": 5,
+    "output_directory": "output",
+    "log_level": "INFO"
+  },
+  "scan_options": {
+    "basic_analysis": true,
+    "waf_detection": true,
+    "sql_injection": true,
+    "xss_scan": true,
+    "url_bruteforce": true,
+    "ai_analysis": true,
+    "save_results": true
+  },
+  "sql_injection": {
+    "max_columns_to_test": 20,
+    "test_boolean": true,
+    "test_error": true,
+    "test_union": true,
+    "test_time": true
+  },
+  "xss_scanner": {
+    "test_reflected": true,
+    "test_stored": true,
+    "test_dom": true,
+    "max_payloads_per_param": 15
+  },
+  "waf_detection": {
+    "test_bypass_techniques": true,
+    "max_payloads": 10
+  },
+  "url_bruteforce": {
+    "max_directories_to_test": 100,
+    "max_extensions": 5,
+    "test_common_backups": true
+  }
+}

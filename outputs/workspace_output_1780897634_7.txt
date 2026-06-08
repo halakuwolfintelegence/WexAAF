@@ -1,0 +1,66 @@
+
+[96m
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║                    [97mWexAAF v1.0[96m                                ║
+║            [97mAI Powered Web Penetration Testing Tool[96m            ║
+║                   [92mEthical Security Only[96m                       ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+[0m
+
+
+[91m╔═══════════════════════════════════════════════════════════════════╗
+║                      ⚠️  LEGAL DISCLAIMER ⚠️                     ║
+╚═══════════════════════════════════════════════════════════════════╝[31m
+
+WexAAF is created SOLELY for educational and ethical security testing 
+purposes. By using this tool, you agree to:
+
+[32m✓[31m Only test websites you OWN or have EXPLICIT WRITTEN permission to test
+[32m✓[31m Never use WexAAF for malicious purposes or unauthorized access
+[32m✓[31m Always comply with local, state, and federal laws
+[32m✓[31m Test on your own server first before any deployment
+[32m✓[31m Use this tool responsibly and ethically
+
+[91mDISCLAIMER:[0m
+[37mThe developers and contributors of WexAAF are NOT responsible for:[31m
+[37m• Any misuse of this tool[31m
+[37m• Any damage caused to systems[31m
+[37m• Any legal consequences arising from misuse[31m
+[37m• Any unauthorized access or data breaches
+
+[93m
+TRY IT ON YOUR OWN SERVER AND WE ARE NOT RESPONSIBLE FOR WRONG USE!
+WE WILL MAKE THIS TOOL ONLY ETHICAL AND EDUCATIONAL PURPOSED.
+
+For authorized security testing, always obtain proper authorization first.
+[0m
+
+usage: wexaaf.py [-h] -u URL [--basic] [--waf] [--sql] [--xss] [--brute]
+                 [--ai] [--sql-only] [--xss-only] [--no-waf] [--no-output]
+
+WexAAF - AI Powered Web Penetration Testing Tool
+
+options:
+  -h, --help         show this help message and exit
+  -u URL, --url URL  Target URL for security testing
+  --basic            Run basic security analysis (default: true)
+  --waf              Run WAF detection (default: true)
+  --sql              Run SQL injection tests (default: true)
+  --xss              Run XSS vulnerability scan (default: true)
+  --brute            Run URL bruteforce (default: true)
+  --ai               Run AI analysis (default: true)
+  --sql-only         Run only SQL injection tests
+  --xss-only         Run only XSS vulnerability scan
+  --no-waf           Skip WAF detection
+  --no-output        Skip saving results to file
+
+Examples:
+  python wexaaf.py -u https://example.com                 # Full scan
+  python wexaaf.py -u https://example.com --sql-only      # SQL injection only
+  python wexaaf.py -u https://example.com --no-waf        # Skip WAF detection
+  python wexaaf.py -u https://example.com --no-output     # Skip saving results
+
+For more information, visit: https://github.com/wexaaf
+        
